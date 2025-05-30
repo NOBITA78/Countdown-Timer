@@ -46,7 +46,7 @@ A stylish and interactive web application that allows users to set a future date
 Use these buttons for quick setup:
 - 🎉 **New Year 2026**
 - 📚 **Exam Day (June 14, 2025)**
-- 🇮🇳 **Independence Day (August 15, 2025)**
+- 🫡 **Independence Day (August 15, 2025)**
 
 ---
 
