@@ -52,13 +52,13 @@ Use these buttons for quick setup:
 
 ## 📁 Folder Structure
 
-Countdown Timer/
-├── index.html
-├── style.css
+countdown-timer/
+├── index.html 
+├── style.css 
 ├── script.js
-├── README.md
-└── sounds/
-    └── happy-bells.mp3
+├── sounds/
+│ └── happy-bells.mp3 # Celebration sound effect
+└── README.md # Project documentation
 
 ---
 
