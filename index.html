@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Countdown Timer</h1>
+      <input type="datetime-local" id="datetime-picker" />
+      <button id="start-button">Start Countdown</button>
+      <button id="theme-toggle">Switch Theme</button>
+      <div class="presets">
+        <button class="preset-btn" data-time="2025-12-31T23:59">
+          🎉 New Year 2026
+        </button>
+        <button class="preset-btn" data-time="2025-06-14T09:00">
+          📚 Exam Day
+        </button>
+        <button class="preset-btn" data-time="2025-08-15T00:00">
+          🫡 Independence Day
+        </button>
+      </div>
+
+      <div class="timer" id="timer">
+        <div>
+          <span id="days">0</span>
+          <p>Days</p>
+        </div>
+        <div>
+          <span id="hours">0</span>
+          <p>Hours</p>
+        </div>
+        <div>
+          <span id="minutes">0</span>
+          <p>Minutes</p>
+        </div>
+        <div>
+          <span id="seconds">0</span>
+          <p>Seconds</p>
+        </div>
+      </div>
+
+      <p id="complete-msg" class="hidden">⏰ Time’s up!</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
