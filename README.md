@@ -54,7 +54,9 @@ Use these buttons for quick setup:
 
 countdown-timer/
 ├── index.html 
+
 ├── style.css 
+
 ├── script.js
 ├── sounds/
 │ └── happy-bells.mp3 # Celebration sound effect
